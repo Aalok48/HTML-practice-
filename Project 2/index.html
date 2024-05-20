@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>
+                Job Application
+                <span>(Web)</span>
+            </h1>
+            <form action="">
+                <div class="name_div">
+                    <div class="user_first_name" >
+                        <label for="first_name" >First Name:</label><br>
+                        <input type="text" style="border: 2px solid black;height: 55px; margin-top: 15px;border-radius: 5px;font-size: 25px;text-align: center; " placeholder="Enter your first name" name="first_name" id="first_name">
+                    </div>
+                    <div class="user_last_name" >
+                        <label for="last_name" >Last Name:</label><br>
+                        <input type="text" style="border: 2px solid black;height: 55px; margin-top: 15px;border-radius: 5px;font-size: 25px;text-align: center; " placeholder="Enter your last name" name="last_name" id="last_name">
+                    </div>
+                </div>
+                <br><br>
+                <div class="email_div1">
+                    <div class="email_div">
+                        <label for="email">Email-Address:</label><br>
+                        <input type="text" style="border: 2px solid black;height: 55px; margin-top: 15px;border-radius: 5px;font-size: 25px;text-align: center; " placeholder="Enter your Email-Address" name="email" id="email">
+                    </div>
+                    <div class="jobrole">
+                        <label for="jobrole">Job role:</label><br>
+                        <select name="jobrole" style="border: 2px solid black;" id="">
+                            <option value="frontend_developer">Frontend developer</option>
+                            <option value="backend_developer">Backend developer</option>
+                            <option value="wordpress_developer">Wordpress developer</option>
+                            <option value="figma_designer">Figma Designer</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="address">
+                    <label for="address">Address:</label><br>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </div>
+                <div class="candp">
+                    <div class="city">
+                        <label for="city">City:</label><br>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div class="pincode">
+                        <label for="pincode">Pincode</label>
+                        <input type="text" name="pincode" id="pincode">
+                    </div>
+                </div>
+                <div class="dateandcv">
+                    <div class="date">
+                        <label for="startdate">Start </label><br>
+                        <input type="date">
+                    </div>
+                    <div class="cvupload">
+                        <label for="cvupload">Upload your CV:</label><br>
+                        <input type="file" name="cvupload" id="cvupload">
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit" class="button1">Apply now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
