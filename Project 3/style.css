@@ -1,0 +1,105 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(images/images1.png);
+    min-height: 100%;
+    
+}
+
+.pimg2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+    
+}
+.pimg3{
+    background-image: url(images/image3.png);
+    min-height: 400px;    
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #dfe6e9;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.parasec_1{
+    margin-top: 75px;
+}
+
+.parasec_1 h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.parasec_1 p{
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: black;
+}
+.parasec_2{
+    margin-top: 75px;
+}
+
+.parasec_2 h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.parasec_2 p{
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: black;
+}
+.parasec_3{
+    margin-top: 75px;
+}
+
+.parasec_3 h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.parasec_3 p{
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: black;
+}
