@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.main_div{
+    width: 1440px;
+    height: 2483px;
+}
+
+.navigation_container{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+}
+
+.logo_container{
+    margin-left: 117px;
+    float: left;
+}
+
+ .bar_icon{
+    float: right;
+    margin-top: 24px;
+    margin-right: 120px;
+    font-size: 45px;
+}
+
+.hero_div{
+    width: 1440px;
+    height: 514px;
+    display: flex;
+}
+
+.photo_hero{
+    width: 50%;
+    height: 514px;
+    padding: 40px 69px 0px 155px;
+}
+
+.para_hero{
+    width: 720px;
+    height: 514px;
+}
+
+.para1_div{
+    margin-top: 78px;
+    margin-left: 69px;
+}
+
+.para1_div h3{
+    width: 275px;
+    height: 45px;
+    line-height: 1.5;
+    background-color: #149F39;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+
+.para1_div h2{
+    font-size: 55px;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.para1_div p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.para1_div button{
+    margin-top: 65px;
+    background-color: #FFC066;
+    font-size: 35px;
+    color: white;
+    padding: 19px 21px 19px 21px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.features{
+    width: 878px;
+    height: 109px;
+    margin-left: 281px;
+    margin-right: 281px;
+    margin-top: 75px;
+}
+
+.first_feature, .second_feature, .third_feature{
+    float: left;
+    width: 33%;
+    height: 100%;
+    padding-top: 13px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.first_feature p, .second_feature p, .third_feature p{
+    float: right;
+    /* padding-right: 55px; */
+    padding-left: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    float: left;
+}
+
+.first_feature img, .second_feature img, .third_feature img{
+    width: 80px;
+    height: 83px;
+    float: left;
+}
+
+.first_feature span, .second_feature span, .third_feature span{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu{
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu h4{
+    width: 145px;
+    height: 45px;
+    padding: 7px 0px 7px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 662px;
+    background-color: #149F39;
+}
+
+.menu p{
+    margin-top: 15px;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.photo_div{
+    width: 1038px;
+    height: 890px;
+    /* background-color: #FFC066; */
+    margin-left: 270px;
+}
+
+.grid-image {
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+}
+.grid-image:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+.grid {
+  display: grid;
+  gap: 25px;
+  grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+
+.item1 {
+  grid-area: I1;
+}
+.item2 {
+  grid-area: I2;
+}
+.item3 {
+  grid-area: I3;
+}
+.item4 {
+  grid-area: I4;
+}
+.item5 {
+  grid-area: I5;
+}
+.item6 {
+  grid-area: I6;
+}
+.item7 {
+  grid-area: I7;
+}
+
+.foot_section{
+    width: 100%;
+    height: 250px;
+    background-color: #FFF0DB;
+}
+
+.foot_div1{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-top: 55px;
+    padding-left: 175px;
+}
+
+.foot_div2{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-top: 55px;
+    padding-left: 95px;
+    text-transform: capitalize;
+}
+
+.foot_div2 ul, .foot_div3 ul{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.list_section li:hover, .list_section2 li:hover{
+    transition: 0.1s;
+    border: 2px solid #FFF0DB;
+    font-size: 20px;
+}
+
+.list_section li, .list_section2 li{
+    margin-bottom: 5px;
+}
+
+.foot_div3{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-top: 55px;
+    padding-left: 5px;
+}
+
+.foot_div4{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-top: 55px;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+.foot_div4 input{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.social_profile{
+    padding-bottom: 53px;
+}
+
+.icon_div{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.icon1{
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 8px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 17px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon4{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 17px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
